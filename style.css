@@ -1,0 +1,116 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  height: 742px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  background: linear-gradient(45deg , rgba(255, 4, 196, 0.401), rgb(102, 16, 102));
+  margin-bottom: 200px;
+  width: 400px;
+  
+  max-height: 425px;
+  border-radius: 10px;
+}
+
+.top{
+  height: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.middle{
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 225px;
+  width: 100%;
+  
+}
+
+.middle .cityname{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 90px;
+  height: 125px;
+  
+}
+
+.middle .temperature{
+  display: flex;
+  height: 75px;
+  
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom{
+  height: 125px;
+  width: 100%;
+  
+  display: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.humidity{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  
+  width: 45%;
+}
+
+.humidity_head{
+  font-size: 40px;
+}
+
+.humidity_num{
+  font-size: 30px;
+}
+
+.windspeed{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  width: 45%;
+  
+}
+
+.windspeed_head{
+  font-size: 40px;
+}
+
+.windspeed_num{
+  font-size: 30px;
+}
+
+.top input{
+  width: 60%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.top button{
+  height: 50px;
+  width: 27%;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: rgb(83, 82, 82);
+}
